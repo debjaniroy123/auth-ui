@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(to right, #fbc2eb, #a18cd1);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px;
+}
+
+.card {
+    background: #fff;
+    padding: 30px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+    border: none;
+    background: #eee;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background: purple;
+    color: white;
+    margin-top: 10px;
+}
+
+.google {
+    background: white;
+    color: purple;
+    border: 1px solid purple;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+}
